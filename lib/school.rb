@@ -10,6 +10,7 @@ class School
      binding.pry
     if !roster.has_key?(level)
       roster[level] = [] 
+    end 
     roster[level] << name_student
   end 
   
