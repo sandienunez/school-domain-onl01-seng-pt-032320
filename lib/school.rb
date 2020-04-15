@@ -19,6 +19,6 @@ def grade(grade)
   end
 
 def sort
-school.sort 
+name_student.sort 
 end 
 end 
