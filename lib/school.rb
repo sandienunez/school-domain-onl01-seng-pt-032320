@@ -8,7 +8,7 @@ class School
   
    def add_student(name_student, level)
      binding.pry
-    if roster[level] has_key?
+    if !roster.has_key?(level)
       roster[level] = [] 
     roster[level] << name_student
   end 
