@@ -11,10 +11,10 @@ class School
     roster[level] << name_student
   end 
   
-# def grade(grade)
-#     @roster[grade]
-#   end
-# end 
+def grade(grade)
+    @roster[grade]
+  end
+end 
 
 #   def sort
 #     @roster.each do |key, value|
