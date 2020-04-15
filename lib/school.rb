@@ -8,7 +8,7 @@ class School
   
    def add_student(name_student, level)
      binding.pry
-    roster[level] = [] 
+    if roster[level] = [] 
     roster[level] << name_student
   end 
   
