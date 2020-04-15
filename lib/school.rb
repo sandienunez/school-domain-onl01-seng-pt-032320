@@ -20,6 +20,6 @@ def grade(grade)
 
 def sort
   binding.pry 
-roster.each {level, ||}
+roster.each {|level, name_student|}
 
 end 
