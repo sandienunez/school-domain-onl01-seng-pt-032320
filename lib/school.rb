@@ -18,11 +18,13 @@ def grade(grade)
     @roster[grade]
   end
 
-#def sort
+def sort
 roster.sort 
 end 
 
 end 
+
+
 # def sort
 #     @roster.each do |key, value|
 #       value.sort!
