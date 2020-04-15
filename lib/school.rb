@@ -19,11 +19,11 @@ def grade(grade)
   end
 end 
 
-#   def sort
+# def sort
 #     @roster.each do |key, value|
 #       value.sort!
 #     end
-# end 
+
 
   # def add_student(name, grade)
   #   if @roster[grade] != nil
